@@ -10,7 +10,6 @@ RUN dnf update -y && \
     file gcc-c++ elfutils-libelf-devel cpio
 
 RUN hg clone http://hg.openjdk.java.net/jdk9/jdk9 jdk9
-RUN dnf install -y \
     
 WORKDIR jdk9
 
